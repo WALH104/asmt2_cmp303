@@ -6,4 +6,6 @@ Stack is an integer stack backed by an ArrayList<Integer> where the end of the l
 <img width="693" height="744" alt="image" src="https://github.com/user-attachments/assets/f033b292-699c-44cb-b2c9-736fc3be2102" />
 
 
-first picture just hold
+In the first screenshot, different values of 5, 30, 80, and 560 are pushed to prove the methods work with any input, producing Popped: 560, Peek: 80, and Average: 38.33.
+In the second screenshot, isEmpty() is called on a fresh empty stack returning true, then values 10, 20, 30, and 40 are pushed producing Popped: 40, Peek: 30, and Average: 20.0.
+In the third screenshot, isEmpty() is called after pushing a value of 10, returning false to show the stack is not empty. The stack is then pushed with 10, 20, 30, and 40, producing Popped: 40, Peek: 30, and Average: 17.5.
